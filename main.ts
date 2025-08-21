@@ -138,8 +138,6 @@ export default class AccountingJournalLedger extends Plugin {
 
 			if (!filePath || filePath === "/") {
 
-				console.info("Spanish account system data");
-
 				this.accountEquivalence = pgcData; // Fallback to PGC data
 
 			} else {
@@ -148,7 +146,6 @@ export default class AccountingJournalLedger extends Plugin {
 		}
 		catch (e) {
 			console.error("Error parsing account equivalence CSV file:", e);
-			console.info("Using Spanish account system data instead.");
 
 			this.accountEquivalence = pgcData; // Fallback to PGC data
 		}
