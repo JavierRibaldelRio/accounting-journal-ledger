@@ -1,6 +1,7 @@
 # Accounting Journal and Ledger
 
 A lightweight Obsidian plugin for recording simple journal entries in class, based on the Spanish _libro diario_ and _libro mayor_. Uses double-entry bookkeeping. Designed for educational use or for creating example entries easily — not a full accounting system.
+![Videocaptura de pantalla_20250907_160939](https://github.com/user-attachments/assets/6b95357e-01f7-4f26-9728-f9ba2563a42d)
 
 ## Features
 
